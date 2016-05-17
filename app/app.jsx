@@ -9,6 +9,7 @@ var Examples = require("Examples");
 // Load foundation
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
+
 ReactDOM.render( //most common react-dom method
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
