@@ -3,7 +3,7 @@ var React = require("react");
 var About = (props) => {
   return (
     <div>
-      <h1 className="text-center">About</h1>
+      <h1 className="text-center page-title">About</h1>
       <p>This app was build during a UDemy React JS Course. It is a weather app that uses the OpenWeatherMap API.</p>
       <ul>
         <li>
